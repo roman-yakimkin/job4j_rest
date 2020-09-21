@@ -7,11 +7,15 @@
   <groupId>ru.job4j</groupId>
   <artifactId>job4j_rest</artifactId>
   <version>1.0</version>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
 
   <name>REST app</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+
+  <modules>
+    <module>auth</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
